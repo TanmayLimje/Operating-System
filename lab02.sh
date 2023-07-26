@@ -86,3 +86,56 @@ echo "negative no found"
 echo "final sum = $s"
 echo
 echo "No of sums = $no_of_sum"	
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+## output
+
+student@student:~/tans$ ./bash_43.sh
+hello
+SaSuMaAaTA, Group of 5
+
+Enter your age and press <-
+12
+U are Sans!
+
+Enter the name of the Directory then press <-
+hehe
+
+for loop
+sundi tapori
+sundi tapori
+sundi tapori
+sundi tapori
+sundi tapori
+
+while loop
+ 1. Hello there
+ 2. Hello there
+ 3. Hello there
+ 4. Hello there
+ 5. Hello there
+
+
+sum of natural no till 40
+820
+
+Enter number
+12
+sum = 12
+
+Enter number
+3
+sum = 15
+
+Enter number
+5
+sum = 20
+
+Enter number
+-1
+
+negative no found
+final sum = 20
+
+No of sums = 3
