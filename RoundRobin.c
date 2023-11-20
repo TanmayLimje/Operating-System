@@ -73,36 +73,36 @@ int main()
 	
 }
 
-----------------------------------------------------------------------------------------------------------------------------
-  output:
+// ----------------------------------------------------------------------------------------------------------------------------
+//   output:
 
-tanmay@tanmay-VirtualBox:~/os$ gcc RoundRobin.c 
-tanmay@tanmay-VirtualBox:~/os$ ./a.out
-Enter no of processes: 3
+// tanmay@tanmay-VirtualBox:~/os$ gcc RoundRobin.c 
+// tanmay@tanmay-VirtualBox:~/os$ ./a.out
+// Enter no of processes: 3
 
-Enter burst time for all processes :1 4 5
-Enter time quantum:2
+// Enter burst time for all processes :1 4 5
+// Enter time quantum:2
 
-Process	BT	TAT	WT 
-1	 1	 1	 0
-2	 4	 0	 -4
-3	 5	 0	 -5
+// Process	BT	TAT	WT 
+// 1	 1	 1	 0
+// 2	 4	 0	 -4
+// 3	 5	 0	 -5
 
-Avg wt:-3.000000
-Avg tat:0.333333 
+// Avg wt:-3.000000
+// Avg tat:0.333333 
 
-Process	BT	TAT	WT 
-1      	 1	 1	0
-2    	 4	 7	3
-3    	 5	 0  	-5
+// Process	BT	TAT	WT 
+// 1      	 1	 1	0
+// 2    	 4	 7	3
+// 3    	 5	 0  	-5
 
-Avg wt:-1.666667
-Avg tat:2.777778 
+// Avg wt:-1.666667
+// Avg tat:2.777778 
 
-Process	BT	TAT	WT 
-1	 1	 1	 0
-2	 4	 7	 3
-3	 5	 10   	 5
+// Process	BT	TAT	WT 
+// 1	 1	 1	 0
+// 2	 4	 7	 3
+// 3	 5	 10   	 5
 
-Avg wt:2.111111
-Avg tat:6.925926
+// Avg wt:2.111111
+// Avg tat:6.925926
